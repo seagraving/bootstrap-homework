@@ -4,45 +4,109 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <title>Portfolio</title>
 </head>
 
+<!-- navigation bar -->
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html" id="logo">
+                <h3>Sarah Seagraves</h3>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+                aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
 
-<div class="container">
-<!-- navigation -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <span class="navbar-brand">Sarah Seagraves</span>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+<div class="container" id="portfolio">
+  <div class="card">
+  <h2 class="text-center" id="border"> Portfolio</h2>
   
-      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">About Me<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
-    </div>
-  </nav>
+  <div class="row">   
+      <div class="col-md-6 col 12">
+          
+          <div class="row">
+              <div class= "proj mx-auto">
+              <img class="mx-auto img-responsive proj" src="assets/coffee-splash.jpg" alt="Delicious coffee" height="150px" width="150px" >
+                  
+              </div>    
+          </div>
+          <div class="row">
+              <h4 class="mx-auto text-center">Coffee Project</h4>
+          </div>
+          
+          <div class="row">
+              <p class="mx-auto text-center"> This project will contain something great!</p>
+         </div> 
+        </div>
+      </div>
+
+      <div class="col-md-6 col-12">
+          
+          <div class="row">
+              <div class= "proj mx-auto">
+              <img class="mx-auto img-responsive proj" src="assets/curry-splash.jpg" alt="Nourishing curry" height="150px" width="150px" >
+                
+              </div> 
+          </div>   
+          <div class="row">
+              <h4 class="mx-auto text-center">Curry Chef Game</h4>
+          </div>
+          <div class="row">
+              <p class="mx-auto text-center"> Up and coming cooking game based on creating delicious curries. </p>
+          </div>
+      </div>
+  </div>
+</div>
+  
+  <div class="row">   
+      <div class="col-md-6 col-12">
+          <div class="row">
+              <div class= "proj mx-auto">
+              <img class="mx-auto img-responsive proj" src="assets/ramen-splash.jpg" alt="Mouth-watering ramen" height="150px" width="150px" >
+                  
+              </div> 
+          </div>   
+          <div class="row">
+              <div class="col-md-6">
+              <h4 class="mx-auto text-center">Virtual Ramen Experiences</h4>
+          </div>
+          <div class="row">
+              <p class="mx-auto text-center">Recreating the ramen experience you knew pre-COVID, virtually!</p>
+          </div>
+      </div>
+      </div>
+  </div>
+  
 </div>
 
 
+
+<!-- script plugins -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> 
-<body>
-    
+
 </body>
 </html>
