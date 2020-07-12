@@ -20,15 +20,22 @@ h1 {
     color: rgb(255, 255, 255);
     padding-top: 5px;
     padding-bottom: 10px;
-    border-width: 5px;
-    border-color: rgb(0, 0, 0);
+    
 }    
 
 h2 {
     font-family: 'Permanent Marker', cursive;
     color: rgb(64, 13, 160);
-    text-underline-position: below;
+    text-decoration: underline;
     text-decoration-color: lightseagreen;
+}
+
+h3,  h4 {
+    font-family: 'Itim', cursive;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .pageheader{
@@ -46,11 +53,16 @@ h2 {
 
 }
 
+.form-group {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 #portfolio{
     padding-top: 10px;
     padding-bottom:10px;
-    background-color: rgb(202, 202, 198);
+   
 }
+
 
 
 #welcome, 
@@ -63,7 +75,11 @@ h2 {
 
 
 
-
+@media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+  }
 
 
 
