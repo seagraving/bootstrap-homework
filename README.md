@@ -4,9 +4,9 @@ This repository was created to hold the newest information concerning an incredi
 
 Contents will include:
 * Main bio/About me section
-* Portfolio (somewhat empty because she's a noob)
+* Portfolio (a bit empty at the moment)
 * Contact page (so you can bother her about her portfolio!)
 
-She will also be making sure to commit her changes unlike the last time. :-)
+She will be making commits more frequently to create a better history of her projects.
 
 Hope this works out!
